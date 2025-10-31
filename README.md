@@ -11,10 +11,6 @@ Projeto produzido durante o estudo do paradigma POO em Java.
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
-
 <br>
 
 <p align="center">
@@ -47,12 +43,26 @@ O Sistema de Restaurante é um projeto com funcionalidades básicas e que respon
 
 As instruções de execução que o usuário vai ver no console são:
 
-- Menu principal
-- Listagem do cardápio
-- Passo a passo para criar pedidos (dia → tipo → gorjeta → produtos)
-- Listagem de pedidos
-- Relatórios completos de vendas
+### 1. Início do Sistema
+- O sistema é iniciado pelo `Main.java`.
+- Todas as listas de dados são carregadas automaticamente (pacientes, clínicas, eventos e restaurantes).
 
+### 2. Seed de Dados
+- Pacientes, clínicas e restaurantes são inseridos automaticamente.
+- Não é necessário inserir dados manualmente na primeira execução.
+- Qualquer erro durante a criação dos dados será exibido com uma mensagem clara.
+
+### 3. Menu de Relatórios
+- Após a inicialização, o sistema exibirá automaticamente os relatórios do ecossistema.
+- Cada relatório é exibido com título e descrição:
+  1. **Clínica mais movimentada** – identifica qual clínica teve mais consultas.
+  2. **Evento com maior número de pacientes** – mostra qual evento teve mais participantes.
+  3. **Restaurante com maior faturamento** – informa qual restaurante faturou mais.
+  4. **Retorno financeiro total** – soma receitas de clínicas, eventos e restaurantes.
+
+### 4. Tratamento de Erros
+- Caso algum relatório não possa ser gerado, será exibida uma mensagem:
+  
 ## 👥 Integrantes
 
 Os integrantes do projeto são:
@@ -63,4 +73,4 @@ Os integrantes do projeto são:
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT.
+Este projeto é de uso *educacional* e *não possui fins comerciais*.
