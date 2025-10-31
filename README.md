@@ -14,7 +14,7 @@ Projeto produzido durante o estudo do paradigma POO em Java.
 <br>
 
 <p align="center">
-  <img alt="projeto caoa" src="./project_rest/Capa project.jpg" width="100%">
+  <img alt="capa" src="Capa - Semana Vida Plena.jpg" width="100%">
 </p>
 
 
