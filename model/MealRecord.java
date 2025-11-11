@@ -6,5 +6,5 @@ public class MealRecord {
 
     public MealRecord(Paciente paciente, boolean refeicaoSaudavel) { this.paciente = paciente; this.refeicaoSaudavel = refeicaoSaudavel; }
     public boolean isRefeicaoSaudavel() { return refeicaoSaudavel; }
-    public Paciente getPaciente() { return paciente; }
+    public Pessoa getPaciente() { return paciente; }
 }
