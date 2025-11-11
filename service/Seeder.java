@@ -5,9 +5,9 @@ import java.time.LocalDate;
 
 public class Seeder {
     public static void seed(DataStore ds) {
-        Paciente p1 = new Paciente("P1", "Ana", 30, true);
-        Paciente p2 = new Paciente("P2", "Bruno", 45, false);
-        ds.pacientes.add(p1); ds.pacientes.add(p2);
+        Pessoa p1 = new Paciente("P1", "Ana", 30, true);
+        Pessoa p2 = new Paciente("P2", "Bruno", 45, false);
+        ds.pessoas.add(p1); ds.pessoas.add(p2);
 
         Clinica c1 = new Clinica("C1", "Clínica Central");
         ds.clinicas.add(c1);
