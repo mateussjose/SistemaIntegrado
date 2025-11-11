@@ -80,9 +80,9 @@ As instruções de execução que o usuário vai ver no console são:
 
 Os integrantes do projeto são:
 
-- Lucas Hudson  <a href="https://www.instagram.com/lucas_hud/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-- Mateus José   <a href="https://www.instagram.com/_mateussjose/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-- Rosalvo Alves <a href="https://www.instagram.com/rosalvinn/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+- Lucas Hudson 
+- Mateus José  
+- Rosalvo Alves 
 
 ## :memo: Licença 
 
