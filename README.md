@@ -64,7 +64,17 @@ As instruções de execução que o usuário vai ver no console são:
 
 ### 4. Tratamento de Erros
 - Caso algum relatório não possa ser gerado, será exibida uma mensagem:
-  
+
+## ▶️ Demonstração
+
+<p align="center">
+  <img alt="1" src="Demonstração 1.jpg" width="100%">
+</p>
+
+<p align="center">
+  <img alt="2" src="Demonstração 2.jpg" width="100%">
+</p>
+
 ## 👥 Integrantes
 
 Os integrantes do projeto são:
