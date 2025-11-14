@@ -12,4 +12,5 @@ public class DataStore {
     public List<Evento> eventos = new ArrayList<>();
     public List<MealRecord> mealRecords = new ArrayList<>();
     public List<ConsultaRecord> consultaRecords = new ArrayList<>();
+    public List<CupomRecord> cupons = new ArrayList<>();
 }
