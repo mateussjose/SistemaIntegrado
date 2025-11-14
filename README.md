@@ -17,7 +17,7 @@ Projeto produzido durante o estudo do paradigma POO em Java.
 <br>
 
 <p align="center">
-  <img alt="capa" src="Capa - Semana Vida Plena.jpg" width="100%">
+  <img alt="capa" src="assets/Capa - Semana Vida Plena.jpg" width="100%">
 </p>
 
 
@@ -69,11 +69,11 @@ As instruções de execução que o usuário vai ver no console são:
 ## ▶️ Demonstração
 
 <p align="left">
-  <img alt="1" src="Demonstração 1.jpeg" width="40%">
+  <img alt="1" src="assets/Demonstração 1.jpeg" width="40%">
 </p>
 
 <p align="left">
-  <img alt="2" src="Demonstração 2.jpeg" width="40%">
+  <img alt="2" src="assets/Demonstração 2.jpeg" width="40%">
 </p>
 
 ## 👥 Integrantes
