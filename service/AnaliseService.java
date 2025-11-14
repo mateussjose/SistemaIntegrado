@@ -132,7 +132,7 @@ public class AnaliseService {
     public double retornoFinanceiroTotal() {
         double eventos = ds.eventos.stream().mapToDouble(Evento::getReceita).sum();
         double restaurantes = ds.restaurantes.stream().mapToDouble(Restaurante::getFaturamento).sum();
-        double consultas = ds.consultaRecords.size() * 80; // preço fictício por consulta
+        double consultas = ds.consultaRecords.size() * 80;
 
         return eventos + restaurantes + consultas;
     }
