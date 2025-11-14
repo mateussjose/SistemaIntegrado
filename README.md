@@ -82,7 +82,7 @@ Os integrantes do projeto são:
 
 - Lucas Hudson&nbsp; <a href="https://www.linkedin.com/in/lucas-hudson-a2504a399/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 - Mateus José &nbsp; &nbsp; <a href="https://www.linkedin.com/in/mateus-oliveira-172492213/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-- Rosalvo Alves &nbsp; <a href= "https://www.linkedin.com/in/rosalvo-alves-de-oliveira-filho-928521391/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+- Rosalvo Alves &nbsp; <a href="https://www.linkedin.com/in/rosalvo-alves-de-oliveira-filho-928521391/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 
 ## :memo: Licença 
 
