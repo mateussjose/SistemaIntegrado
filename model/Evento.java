@@ -19,6 +19,8 @@ public class Evento {
     public String getTitulo() { return titulo; }
     public double getReceita() { return receita; }
     public void setReceita(double receita) { this.receita = receita; }
+    public String getTipo() { return tipo; }
+    public String getId() { return id; }
 
     @Override
     public String toString() { return titulo + " (" + tipo + ") - " + data; }
