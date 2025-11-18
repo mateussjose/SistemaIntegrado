@@ -11,5 +11,10 @@ public abstract class Pessoa {
 
     public String getNome() { return nome; }
     public int getIdade() { return idade; }
+
     public abstract String getTipo();
+
+    public String getDescricao() {
+        return nome + " - " + idade + " anos";
+    }
 }
