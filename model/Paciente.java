@@ -18,4 +18,9 @@ public class Paciente extends Pessoa {
 
     @Override
     public String toString() { return id + " - " + getNome() + " (" + getIdade() + ")"; }
+
+    @Override
+public String getDescricao() {
+    return "Paciente " + getNome() + " (" + getIdade() + " anos) - ID: " + id;
+}
 }
