@@ -7,13 +7,17 @@ import model.*;
 public class Seeder {
     public static void seed(DataStore ds) {
 
-        Paciente p1 = new Paciente("P1", "Ana", 9, true);
-        Paciente p2 = new Paciente("P2", "Bruno", 47, false);
-        Paciente p3 = new Paciente("P3", "Carlos", 37, true);
-        Paciente p4 = new Paciente("P4", "Duda", 22, true);
+        Pessoa p1 = new Paciente("P1", "Ana", 9, true);
+        Pessoa p2 = new Paciente("P2", "Bruno", 47, false);
+        Pessoa p3 = new Paciente("P3", "Carlos", 37, true);
+        Pessoa p4 = new Paciente("P4", "Duda", 22, true);
 
-        ds.pacientes.addAll(List.of(p1, p2, p3, p4));
-        ds.pessoas.addAll(ds.pacientes);
+        ds.pessoas.addAll(List.of(p1, p2, p3, p4));
+
+        ds.pacientes.add((Paciente) p1);
+        ds.pacientes.add((Paciente) p2);
+        ds.pacientes.add((Paciente) p3);
+        ds.pacientes.add((Paciente) p4);
 
         Clinica c1 = new Clinica("C1", "Clínica Central");
         ds.clinicas.add(c1);
@@ -35,13 +39,13 @@ public class Seeder {
         ds.eventos.add(palestra);
         ds.eventos.add(corrida);
 
-        ds.consultaRecords.add(new ConsultaRecord(p1, "Nutricional"));
-        ds.consultaRecords.add(new ConsultaRecord(p3, "Clínica"));
+        ds.consultaRecords.add(new ConsultaRecord((Paciente)p1, "Nutricional"));
+        ds.consultaRecords.add(new ConsultaRecord((Paciente)p3, "Clínica"));
 
-        ds.mealRecords.add(new MealRecord(p1, true));
-        ds.mealRecords.add(new MealRecord(p1, true));
-        ds.mealRecords.add(new MealRecord(p3, false));
-        ds.mealRecords.add(new MealRecord(p3, true));
+        ds.mealRecords.add(new MealRecord((Paciente)p1, true));
+        ds.mealRecords.add(new MealRecord((Paciente)p1, true));
+        ds.mealRecords.add(new MealRecord((Paciente)p3, false));
+        ds.mealRecords.add(new MealRecord((Paciente)p3, true));
 
         r1.adicionarFaturamento(500);
         r1.adicionarFaturamento(250);
